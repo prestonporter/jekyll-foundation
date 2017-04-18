@@ -1,5 +1,9 @@
 <nav >
-  <ul class="menu clearfix float-right">
+<!--  <ul class="menu clearfix float-left">
+    <li><a>Kraken Design</a></li>
+  </ul> -->
+<a href="/" class="float-left">Kraken Design</a>
+<ul class="menu clearfix float-right">
     {% for item in site.data.nav-main %}
       <li><a href="{{ item.url }}">{{ item.link }}</a></li>
     {% endfor %}

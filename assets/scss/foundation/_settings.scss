@@ -1,2 +1,73 @@
 //  Foundation for Sites Settings
 //  -----------------------------
+
+// 1. Global
+// ---------
+
+$yellow: #ffcc00;
+$krakblack: #111111;
+$medium-gray: #cacaca;
+$light-gray: #e6e6e6;
+$black: #0a0a0a;
+$bauwhite: #e0e9f0;
+$baudkblue: #222a5b;
+$baublue: #2b5fa6;
+$bauyellow: #efcd03;
+$baubluegray: #a3b9da;
+$baugray: #bdbdc0;
+$baubluwhite: #e0e9f0;
+$ausgray: #c3c7c8;
+$ausyellow: #f2cc5b;
+$ausltyellow:#efcd77;
+$neueyellow: #ecec1f;
+$body-font-color: $bauwhite;
+$body-font-family: 'Roboto', sans-serif;
+// $body-background: #fef31d;
+$body-background: $baudkblue;
+
+$foundation-palette: (
+  primary: $baubluwhite, 
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+
+// 4. Base Typography
+// ---------
+
+$header-font-family: 'Roboto', sans-serif;
+$header-font-weight:700;
+$header-color: $baugray;
+
+// 11. Button
+// ----------
+
+$button-color: $body-background;
+
+// 24. Off-canvas
+// --------------
+
+$offcanvas-background: $yellow;
+
+// 37. Top Bar
+// -----------
+
+$topbar-background: transparent;
+
+// CUSTOM
+
+nav {
+  padding-left: 0 !important;
+  // font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 700;
+}
+
+nav h3 {
+  text-transform: uppercase;
+}
+
+// Header / Footer --> _l-default.scss bb
+
+// Google Header Font - Rubik+Mono+One|
+
